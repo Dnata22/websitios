@@ -1,0 +1,101 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FCF8CA;
+    color: #333;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    flex: 1;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #FC3AA4;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 25%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.biography {
+    max-width: 800px;
+}
+
+.biography h2 {
+    font-size: 1.8em;
+    color: #00042A;
+    margin-bottom: 10px;
+}
+
+.biography p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.signature {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.signature p {
+    font-size: 1.5em;
+    color: #6c3d74;
+    margin-bottom: 10px;
+}
+
+.signature-img {
+    width: 25%;
+}

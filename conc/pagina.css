@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDC8;
+    color: #333;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    flex: 1;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #FC3AA4;
+}
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+main {
+    padding: 20px;
+}
+
+section.concerts {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #C6006C;
+    margin-bottom: 20px;
+}
+
+.concert-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.concert {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.concert img {
+    width: 100%;
+    height: auto;
+}
+
+.concert h3 {
+    font-size: 1.5em;
+    color: #E1008A;
+    margin: 10px 0;
+}
+
+.concert p {
+    font-size: 1em;
+    color: #560035;
+    margin: 0 0 10px 0;
+}
+
+.concert a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.concert.future a {
+    display: block;
+}
+
+.concert:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
